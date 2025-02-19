@@ -1,0 +1,435 @@
+[
+    {
+      "id": "acid-vial",
+      "name": "Acid Vial",
+      "category": "Weapon",
+      "sub_category": "Improvised",
+      "rarity": "Common",
+      "tags": ["Acid"],
+      "image": "./images/AcidVial.png",
+      "description": "Either splash the contents on a creature within 5ft, or hurl the container up to 20ft, smashing on impact. Both are ranged attacks.",
+      "stats": {
+        "cost": 25,
+        "currency": "gc",
+        "weight": 1,
+        "effect": "2d6 DMG"
+      }
+    },
+    {
+      "id": "healing-potion",
+      "name": "Healing Potion",
+      "category": "Consumable",
+      "sub_category": "Potion",
+      "rarity": "Common",
+      "tags": ["Healing"],
+      "image": "./images/Healing-Potion.png",
+      "description": "Drink this potion to regain 2d4 + 2 hit points. It has no effect on undead or constructs.",
+      "stats": {
+        "cost": 50,
+        "currency": "gc",
+        "weight": 0.5,
+        "effect": "2d4 + 2 HP"
+      }
+    },
+    {
+      "id": "iron-banded-club",
+      "name": "Iron-Banded Club",
+      "category": "Weapon",
+      "sub_category": "Melee",
+      "rarity": "Common",
+      "tags": [],
+      "image": "./images/club.png",
+      "description": "A sturdy club reinforced with iron bands, said to have been blessed by a local priest to ward off creatures of the night. Adds +1 damage to attacks.",
+      "stats": {
+        "cost": 3,
+        "currency": "gc",
+        "weight": 3,
+        "effect": "1d10+SB+1"
+      }
+    },
+    {
+      "id": "minstrels-silver-ring",
+      "name": "Minstrel's Silver Ring",
+      "category": "Accessory",
+      "sub_category": "Charm",
+      "rarity": "Common",
+      "tags": [],
+      "image": "./images/SilverRing.png",
+      "description": "A simple silver band once worn by a traveling minstrel. Adds +5% to Charm tests.",
+      "stats": {
+        "cost": 10,
+        "currency": "gc",
+        "weight": 0,
+        "effect": "+5% Charm"
+      }
+    },
+    {
+      "id": "studded-leather-armor",
+      "name": "Studded Leather Armor",
+      "category": "Armor",
+      "sub_category": "Light",
+      "rarity": "Common",
+      "tags": [],
+      "image": "./images/LeatherJerkin.png",
+      "description": "A well-crafted leather garment, providing 1 AP (body only).",
+      "stats": {
+        "cost": 5,
+        "currency": "gc",
+        "weight": 4,
+        "effect": "1 AP (body only)"
+      }
+    },
+    {
+      "id": "iron-toe-boots",
+      "name": "Iron-Toe Boots",
+      "category": "Clothing",
+      "sub_category": "Utility",
+      "rarity": "Common",
+      "tags": [],
+      "image": "./images/IronBoots.png",
+      "description": "Sturdy boots reinforced with iron toes, rumored to have been worn by a miner who braved collapsing tunnels. Gives +10% to resist falling or tripping.",
+      "stats": {
+        "cost": 4,
+        "currency": "gc",
+        "weight": 5,
+        "effect": "+10% Resist Falling/Tripping"
+      }
+    },
+    {
+      "id": "travelers-hooded-cloak",
+      "name": "Traveler’s Hooded Cloak",
+      "category": "Clothing",
+      "sub_category": "Stealth",
+      "rarity": "Common",
+      "tags": [],
+      "image": "./images/TravelerCloak.png",
+      "description": "A durable, weatherproof cloak, stitched with the symbol of a long-lost trade guild. Provides +5% to stealth.",
+      "stats": {
+        "cost": 1,
+        "currency": "gc",
+        "weight": 2,
+        "effect": "+5% Stealth"
+      }
+    },
+    {
+      "id": "runed-hunting-knife",
+      "name": "Runed Hunting Knife",
+      "category": "Weapon",
+      "sub_category": "Knife",
+      "rarity": "Uncommon",
+      "tags": ["Enchanted"],
+      "image": "./images/HuntingKnife.png",
+      "description": "A short blade, engraved with runes by a hedge wizard who claimed it would repel forest predators. Adds +5% to weapon skill and deals +1 damage against beasts.",
+      "stats": {
+        "cost": 25,
+        "currency": "gc",
+        "weight": 1,
+        "effect": "+5% WS, +1 DMG vs beasts"
+      }
+    },
+    {
+      "id": "enchanted-elven-cloak",
+      "name": "Enchanted Elven Cloak",
+      "category": "Clothing",
+      "sub_category": "Cloak",
+      "rarity": "Uncommon",
+      "tags": ["Enchanted", "Stealth"],
+      "image": "./images/ElvenCloak.png",
+      "description": "A finely woven cloak that always remains dry. +10% bonus to Stealth tests.",
+      "stats": {
+        "cost": 20,
+        "currency": "gc",
+        "weight": 3,
+        "effect": "+10% Stealth"
+      }
+    },
+    {
+      "id": "warding-amulet",
+      "name": "Warding Amulet",
+      "category": "Accessory",
+      "sub_category": "Amulet",
+      "rarity": "Uncommon",
+      "tags": ["Enchanted"],
+      "image": "./images/WardingAmulet.png",
+      "description": "A carved charm passed down through generations, reputed to keep malevolent spirits at bay. Provides a +10% bonus on Willpower tests against being controlled.",
+      "stats": {
+        "cost": 30,
+        "currency": "gc",
+        "weight": 0,
+        "effect": "+10% WP vs mind control"
+      }
+    },
+    {
+      "id": "dwarven-steel-gauntlets",
+      "name": "Dwarven Steel Gauntlets",
+      "category": "Armor",
+      "sub_category": "Heavy",
+      "rarity": "Uncommon",
+      "tags": ["Dwarven"],
+      "image": "./images/DwarfGauntlet.png",
+      "description": "Gauntlets forged by a wandering dwarven blacksmith. Adds +1 AP to arms and +10% to Grip-based tests.",
+      "stats": {
+        "cost": 40,
+        "currency": "gc",
+        "weight": 6,
+        "effect": "+1 AP (arms), +10% Grip checks"
+      }
+    },
+    {
+      "id": "ashwood-longbow",
+      "name": "Ashwood Longbow",
+      "category": "Weapon",
+      "sub_category": "Ranged",
+      "rarity": "Uncommon",
+      "tags": [],
+      "image": "./images/ElvenBow.png",
+      "description": "A bow crafted from the trees of the Great Forest, rumored to have been made under elven guidance. Adds +1 damage and +5% to Ballistic Skill tests.",
+      "stats": {
+        "cost": 40,
+        "currency": "gc",
+        "weight": 2,
+        "effect": "+1 DMG, +5% Ballistic Skill"
+      }
+    },
+    {
+      "id": "elven-moonblade",
+      "name": "Elven Moonblade",
+      "category": "Weapon",
+      "sub_category": "Sword",
+      "rarity": "Rare",
+      "tags": ["Enchanted", "Elven"],
+      "image": "./images/MoonBlade.png",
+      "description": "A glowing sword that emits moonlight (10ft radius). Deals +1 damage and grants +10% attack bonus under moonlight.",
+      "stats": {
+        "cost": 200,
+        "currency": "gc",
+        "weight": 3,
+        "effect": "+1 DMG, +10% Attack in moonlight"
+      }
+    },
+    {
+      "id": "diadem-of-the-sun",
+      "name": "Diadem of the Sun",
+      "category": "Accessory",
+      "sub_category": "Diadem",
+      "rarity": "Rare",
+      "tags": ["Enchanted"],
+      "image": "./images/SunDiadem.png",
+      "description": "A radiant headpiece, rumored to have been blessed by the priests of Myrmidia. Adds +10% to Fellowship tests and glows faintly in darkness.",
+      "stats": {
+        "cost": 150,
+        "currency": "gc",
+        "weight": 0,
+        "effect": "+10% Fellowship"
+      }
+    },
+    {
+      "id": "dragon-bone-composite-bow",
+      "name": "Dragon-Bone Composite Bow",
+      "category": "Weapon",
+      "sub_category": "Ranged",
+      "rarity": "Rare",
+      "tags": ["Enchanted"],
+      "image": "./images/DragonBow.png",
+      "description": "A bow made from the bones of a slain dragon, said to pierce even the thickest armor. Adds +2 armor piercing and doubles effective range.",
+      "stats": {
+        "cost": 250,
+        "currency": "gc",
+        "weight": 4,
+        "effect": "+2 Armor Piercing, double range"
+      }
+    },
+    {
+      "id": "runeforged-plate-armor",
+      "name": "Runeforged Plate Armor",
+      "category": "Armor",
+      "sub_category": "Heavy",
+      "rarity": "Rare",
+      "tags": ["Runed"],
+      "image": "./images/RuneArmor.png",
+      "description": "Armor engraved with magical runes by a long-dead master smith. Provides 3 AP (all locations) and reduces incoming magic damage by 1.",
+      "stats": {
+        "cost": 400,
+        "currency": "gc",
+        "weight": 60,
+        "effect": "3 AP (all), -1 magic damage"
+      }
+    },
+    {
+      "id": "obsidian-necklace",
+      "name": "Obsidian Necklace",
+      "category": "Accessory",
+      "sub_category": "Necklace",
+      "rarity": "Rare",
+      "tags": ["Stealth", "Enchanted"],
+      "image": "./images/ObsidianNecklace.png",
+      "description": "A necklace reportedly crafted in Naggaroth by Dark Elf assassins. Grants +10% to Stealth tests and allows a reroll once per day.",
+      "stats": {
+        "cost": 300,
+        "currency": "gc",
+        "weight": 0,
+        "effect": "+10% Stealth, 1 reroll/day"
+      }
+    },
+    {
+      "id": "dreadfang",
+      "name": "Dreadfang",
+      "category": "Weapon",
+      "sub_category": "Dagger",
+      "rarity": "Very Rare",
+      "tags": ["Enchanted"],
+      "image": "./images/Dreadfang.png",
+      "description": "A wyrm-fang dagger that deals +1 damage, ignores 1 point of armor, and deals +2 damage to reptilian/dragon creatures. Rolling doubles triggers hesitation (-10% WS for 1 round).",
+      "stats": {
+        "cost": 500,
+        "currency": "gc",
+        "weight": 1,
+        "effect": "+1 DMG, ignores 1 armor, +2 DMG vs reptiles"
+      }
+    },
+    {
+      "id": "stormveil-cloak",
+      "name": "Stormveil Cloak",
+      "category": "Clothing",
+      "sub_category": "Cloak",
+      "rarity": "Very Rare",
+      "tags": ["Enchanted", "Utility"],
+      "image": "./images/StormCloak.png",
+      "description": "A storm-powered cloak granting +10% movement, +5% Dodge, and resistance to weather hazards/magic. Stress chills impose a -5% Willpower penalty during combat.",
+      "stats": {
+        "cost": 450,
+        "currency": "gc",
+        "weight": 4,
+        "effect": "+10% Move, +5% Dodge"
+      }
+    },
+    {
+      "id": "shard-of-celestia",
+      "name": "Shard of Celestia",
+      "category": "Accessory",
+      "sub_category": "Amulet",
+      "rarity": "Very Rare",
+      "tags": ["Enchanted"],
+      "image": "./images/CelestiaShard.png",
+      "description": "A pendant granting one reroll on any failed test once per day. Using it causes distracting visions, imposing -5% on Intelligence-based tests for 30 minutes.",
+      "stats": {
+        "cost": 450,
+        "currency": "gc",
+        "weight": 0,
+        "effect": "1 reroll/day, -5% INT for 30 mins"
+      }
+    },
+    {
+      "id": "blade-of-the-mountain-king",
+      "name": "Blade of the Mountain King",
+      "category": "Weapon",
+      "sub_category": "Two-Handed",
+      "rarity": "Very Rare",
+      "tags": ["Runed"],
+      "image": "./images/BladeKing.png",
+      "description": "A runesilver greatsword dealing +2 damage (+4 vs Chaos) and ignoring magical barriers. Its hum of power reduces Stealth by -5% when drawn.",
+      "stats": {
+        "cost": 600,
+        "currency": "gc",
+        "weight": 12,
+        "effect": "+2 DMG (+4 vs Chaos), ignores magic barriers"
+      }
+    },
+    {
+      "id": "sigmars-aegis",
+      "name": "Sigmar's Aegis",
+      "category": "Armor",
+      "sub_category": "Shield",
+      "rarity": "Very Rare",
+      "tags": ["Enchanted"],
+      "image": "./images/SigmarsAegis.png",
+      "description": "A gilded shield offering +2 AP and granting allies within 10 yards +1 AP. Boosts courage, but failed Leadership tests may cause doubt.",
+      "stats": {
+        "cost": 500,
+        "currency": "gc",
+        "weight": 8,
+        "effect": "+2 AP, allies +1 AP (10 yards)"
+      }
+    },
+    {
+      "id": "varns-fury",
+      "name": "Varn's Fury",
+      "category": "Accessory",
+      "sub_category": "Crown",
+      "rarity": "Legendified",
+      "tags": ["Dwarven"],
+      "image": "./images/CrownFury.png",
+      "description": "An ancient Dwarven crown granting +1 Strength, +10% Leadership, and resistance to Fear/Terror. Failures in Willpower tests make the wearer stubborn, imposing penalties to Fellowship.",
+      "stats": {
+        "cost": 0,
+        "currency": "Priceless",
+        "weight": 2,
+        "effect": "+1 STR, +10% Leadership, Resist Fear/Terror"
+      }
+    },
+    {
+      "id": "elderbranch",
+      "name": "Elderbranch",
+      "category": "Weapon",
+      "sub_category": "Staff",
+      "rarity": "Legendified",
+      "tags": ["Enchanted"],
+      "image": "./images/Elderbranch.png",
+      "description": "A living Witchwood staff allowing two free spells per day without a channeling test. Harming nature imposes a -10% casting penalty for one day.",
+      "stats": {
+        "cost": 0,
+        "currency": "Priceless",
+        "weight": 5,
+        "effect": "2 free spells/day, -10% casting if nature harmed"
+      }
+    },
+    {
+      "id": "ashfeather-amulet",
+      "name": "Ashfeather Amulet",
+      "category": "Accessory",
+      "sub_category": "Amulet",
+      "rarity": "Legendified",
+      "tags": ["Consumable"],
+      "image": "./images/AshfeatherAmulet.png",
+      "description": "An amulet granting +10% Fear/Terror resistance and a one-time resurrection at 1 Wound. Resurrection causes 2 Corruption Points.",
+      "stats": {
+        "cost": 0,
+        "currency": "Priceless",
+        "weight": 0,
+        "effect": "One-time resurrection, +10% Fear/Terror resist"
+      }
+    },
+    {
+      "id": "umbral-bastion",
+      "name": "Umbral Bastion",
+      "category": "Armor",
+      "sub_category": "Plate",
+      "rarity": "Legendified",
+      "tags": ["Cursed"],
+      "image": "./images/UmbralBastion.png",
+      "description": "Grants +3 AP (all locations) and can reflect one spell per day (WP test at -10%). Each day worn, pass a WP test or suffer -10% Perception & Fellowship for 24 hours.",
+      "stats": {
+        "cost": 0,
+        "currency": "Priceless",
+        "weight": 50,
+        "effect": "+3 AP, reflect 1 spell/day"
+      }
+    },
+    {
+      "id": "mantle-of-the-inferno",
+      "name": "Mantle of the Inferno",
+      "category": "Clothing",
+      "sub_category": "Cloak",
+      "rarity": "Legendified",
+      "tags": ["Enchanted"],
+      "image": "./images/MantleInferno.png",
+      "description": "A fiery cloak granting immunity to fire damage, imposing -10% WS on enemies in melee, and can release a fire blast once per day. Charm penalties reset after rest.",
+      "stats": {
+        "cost": 0,
+        "currency": "Priceless",
+        "weight": 6,
+        "effect": "Immune to fire, -10% WS on enemies"
+      }
+    }
+  ]
+  

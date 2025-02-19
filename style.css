@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+:root {
+    --dark-bg: #1e1e2f;
+    --card-bg: #2a2a40;
+    --text-color: #fff;
+    --primary: #ffcc00;
+    --secondary: #ff4500;
+    --btn-bg: linear-gradient(90deg, #2f2f3d, #0b0b16);
+    --shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--text-color);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(90deg, #282843, #1e1e2f);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.logo {
+    height: 50px;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+/* Button Styling */
+.button-container {
+    display: flex !important;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}
+
+button {
+    background: var(--btn-bg);
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: var(--primary);
+    color: var(--dark-bg);
+}
+
+
+/* Card UI */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    background: var(--card-bg);
+    width: 320px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    text-align: left;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Card Flip Effect */
+.card:hover {
+    transform: rotateY(10deg);
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Popup Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    width: 400px;
+    text-align: left;
+}
+
+.modal h2 {
+    font-size: 1.5rem;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+}
+.item-image-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.item-image-container img {
+    max-width: 180px;
+    max-height: 180px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+/* 📌 Improved Item Card Styling (Matches Current UI) */
+.item-card {
+    background: rgba(20, 20, 30, 0.9); /* Dark background for contrast */
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* ✅ Keep Hover Effect But Reduce Tilt */
+.item-card:hover {
+    transform: scale(1.02);
+}
+
+/* ✅ Item Title Enhancement */
+.item-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* ✅ Text Styling */
+.item-card p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: var(--text-color);
+}
+
+/* ✅ Tags Styling */
+.item-card strong {
+    color: #ffffff; /* Keep bright text */
+}
+
+/* ✅ Centered & Resized Item Image */
+.item-image-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.item-image-container img {
+    max-width: 220px;
+    max-height: 220px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0px 3px 12px rgba(255, 215, 0, 0.6);
+}
+
+/* 📌 Rarity-Based Colors */
+.rare { color: #a335ee; }      /* Purple */
+.legendified { color: #ff8000; } /* Orange */
+.very-rare { color: #ff00ff; }      /* Magenta */
+.common { color: #ffffff; }    /* White */
+.uncommon { color: #1eff00; }  /* Green */
+
+/* 📌 Item Card Rarity Borders */
+.item-card.rare {
+    border: 2px solid #a335ee;
+    box-shadow: 0px 0px 15px rgba(163, 53, 238, 0.5);
+}
+
+/* 🟣 Very Rare (Inspired by Rare Items in Diablo) */
+.item-card.very-rare {
+    border: 2px solid #a335ee; /* Purple Glow */
+    box-shadow: 0px 0px 15px rgba(163, 53, 238, 0.8);
+    background: linear-gradient(180deg, rgba(50, 20, 70, 0.8), rgba(30, 10, 50, 0.95));
+}
+
+.very-rare h2 {
+    color: #a335ee; /* Strong Purple */
+    text-shadow: 0px 0px 10px rgba(163, 53, 238, 0.8);
+}
+
+/* 🟠 Legendified (Inspired by Legendary Items in Diablo) */
+.item-card.legendified {
+    border: 2px solid #ff8000; /* Orange Glow */
+    box-shadow: 0px 0px 20px rgba(255, 128, 0, 0.9);
+    background: linear-gradient(180deg, rgba(90, 50, 10, 0.9), rgba(40, 20, 5, 1));
+}
+
+.legendified h2 {
+    color: #ff8000; /* Bright Legendary Orange */
+    text-shadow: 0px 0px 12px rgba(255, 128, 0, 1);
+}
+.item-card.common {
+    border: 2px solid #ffffff;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+.item-card.uncommon {
+    border: 2px solid #1eff00;
+    box-shadow: 0px 0px 15px rgba(30, 255, 0, 0.5);
+}
+
+/* 🔥 Enhance Effect & Description */
+.item-card p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #ddd;
+}
+
+.item-card .effect {
+    font-weight: bold;
+    color: #ffcc00;
+    text-shadow: 0px 0px 8px rgba(255, 204, 0, 0.8);
+}
+/* Fade-in effect */
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #ccc;
+    background: linear-gradient(90deg, #282843, #1e1e2f);
+}

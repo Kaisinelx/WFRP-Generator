@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WFRP2E Generator</title>
+    
+    <link rel="icon" type="image/x-icon" href="./icon.png">
+    <link rel="stylesheet" href="style.css?v=2.0">
+    <link rel="manifest" href="./manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>WFRP2E Generator</h1>
+        
+        <div class="button-container">
+            <button id="generateNpc">Generate NPC</button>
+            <button id="generateItem">Generate Item</button>
+            <button id="generateShop">Generate Shop</button>
+        </div>
+
+        <div id="npcDisplay" class="npc-card"></div>
+        <div id="itemDisplay"></div>  <!-- ✅ This should be a clean container -->
+        <div id="shopDisplay" class="shop-card"></div>
+    </div>
+
+    <noscript>
+        <p>JavaScript is required to use this generator.</p>
+    </noscript>
+<!-- Place this somewhere in your HTML body -->
+<button id="installButton" style="display: box;">Install App</button>
+    <script defer src="app.js?v=2.0"></script>
+</body>
+</html>

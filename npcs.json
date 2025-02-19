@@ -1,0 +1,222 @@
+[
+    {
+        "name": "Lady Alarielle of Avelorn",
+        "occupation": "Priestess of Isha",
+        "race": "Elf",
+        "traits": {
+            "ideal": "Serenity",
+            "flaw": "Detached",
+            "bond": "Avelorn's sacred groves"
+        },
+        "description": "A serene and enigmatic figure, she wanders the sacred groves of Avelorn, tending to the Everqueen’s gardens and whispering to the spirits of the land."
+    },
+    {
+        "name": "Caelir Stormblade",
+        "occupation": "Captain of the Yvresse Militia",
+        "race": "Elf",
+        "traits": {
+            "ideal": "Honor",
+            "flaw": "Stubborn",
+            "bond": "Yvresse's defense"
+        },
+        "description": "One of the few Yvressians who still believes in the need for vigilant defense, Caelir tirelessly patrols the mists, ever watchful for the next greenskin invasion."
+    },
+    {
+        "name": "Vaedion Fireheart",
+        "occupation": "Dragon Prince of Caledor",
+        "race": "Elf",
+        "traits": {
+            "ideal": "Restoration",
+            "flaw": "Arrogance",
+            "bond": "Caledor’s former glory"
+        },
+        "description": "A noble warrior bound to an aging dragon, Vaedion seeks to restore Caledor’s former glory, but he struggles with the arrogance that plagues his people."
+    },
+    {
+        "name": "Selendra Wavecaller",
+        "occupation": "Mage of Eataine",
+        "race": "Elf",
+        "traits": {
+            "ideal": "Wisdom",
+            "flaw": "Coldness",
+            "bond": "Lothern’s fleet"
+        },
+        "description": "A practitioner of High Magic who communes with the tides, Selendra serves as an advisor to Lothern’s fleet and reads omens in the rolling waves."
+    },
+    {
+        "name": "Tyrian Sunrider",
+        "occupation": "Charioteer of Tiranoc",
+        "race": "Elf",
+        "traits": {
+            "ideal": "Glory",
+            "flaw": "Recklessness",
+            "bond": "The chariot"
+        },
+        "description": "A reckless but skilled warrior, Tyrian races across the plains of Tiranoc in a golden chariot, eager to prove himself in battle."
+    },
+    {
+        "name": "Aeloris Windborne",
+        "occupation": "Navigator of Tor Elasor",
+        "race": "Elf",
+        "traits": {
+            "ideal": "Curiosity",
+            "flaw": "Restlessness",
+            "bond": "The Great Ocean"
+        },
+        "description": "A seasoned sailor who charts courses through the Great Ocean, Aeloris has seen sights beyond Ulthuan that few others can even imagine."
+    },
+    {
+        "name": "Boris Kladivo",
+        "occupation": "Kislevite Hetman",
+        "race": "Kislevite",
+        "traits": {
+            "ideal": "Pragmatism",
+            "flaw": "Harshness",
+            "bond": "Kislev’s borders"
+        },
+        "description": "A gruff and pragmatic leader, Boris commands a band of horse archers that patrol the borders, striking swiftly at any threats from the north."
+    },
+    {
+        "name": "Anya Vostova",
+        "occupation": "Ice Witch",
+        "race": "Kislevite",
+        "traits": {
+            "ideal": "Power",
+            "flaw": "Isolation",
+            "bond": "Kislev’s frozen tundras"
+        },
+        "description": "A mysterious sorceress who wields the chilling power of Kislev’s frozen tundras, Anya is both feared and revered by her people."
+    },
+    {
+        "name": "Sir Gauvain de Montfort",
+        "occupation": "Bretonnian Questing Knight",
+        "race": "Bretonnian",
+        "traits": {
+            "ideal": "Honor",
+            "flaw": "Doubt",
+            "bond": "The Grail"
+        },
+        "description": "A devout knight on an endless journey to prove his valor, Gauvain seeks the Grail but is haunted by doubts and past failures."
+    },
+    {
+        "name": "Mother Isabeau",
+        "occupation": "Bretonnian Damsel",
+        "race": "Bretonnian",
+        "traits": {
+            "ideal": "Healing",
+            "flaw": "Overprotectiveness",
+            "bond": "Lady of the Lake"
+        },
+        "description": "A healer and prophetess who resides in a secluded glade, aiding those who are deemed worthy by the Lady of the Lake."
+    },
+    {
+        "name": "Gunther Eisenwolf",
+        "occupation": "Witch Hunter",
+        "race": "Empire",
+        "traits": {
+            "ideal": "Faith",
+            "flaw": "Ruthlessness",
+            "bond": "Sigmar’s will"
+        },
+        "description": "A relentless hunter of heretics and mutants, Eisenwolf’s faith in Sigmar is unshakable, but his methods are as brutal as the evils he fights."
+    },
+    {
+        "name": "Lorenzo Belladonna",
+        "occupation": "Tilean Mercenary Captain",
+        "race": "Tilean",
+        "traits": {
+            "ideal": "Profit",
+            "flaw": "Greed",
+            "bond": "The battlefield"
+        },
+        "description": "A cunning sellsword with a silver tongue, Lorenzo always has an angle, whether on the battlefield or at the negotiating table."
+    },
+    {
+        "name": "Juan Estebano",
+        "occupation": "Estalian Duelist",
+        "race": "Estalian",
+        "traits": {
+            "ideal": "Honor",
+            "flaw": "Pride",
+            "bond": "The rapier"
+        },
+        "description": "A master of the rapier who fights for honor, wealth, and sport, Juan’s pride is only matched by his flamboyance."
+    },
+    {
+        "name": "Morvhal Daggerheart",
+        "occupation": "Dreadlord of Naggarond",
+        "race": "Dark Elf",
+        "traits": {
+            "ideal": "Power",
+            "flaw": "Cruelty",
+            "bond": "The Black Arks"
+        },
+        "description": "A cold and calculating noble who commands a fleet of Black Arks, Morvhal delights in the suffering of his enemies."
+    },
+    {
+        "name": "Selendra the Flayer",
+        "occupation": "Executioner of Har Ganeth",
+        "race": "Dark Elf",
+        "traits": {
+            "ideal": "Bloodlust",
+            "flaw": "Sadism",
+            "bond": "Khaine’s will"
+        },
+        "description": "One of the deadliest warriors of Khaine, Selendra revels in bloodshed and sees each kill as an offering to her dark god."
+    },
+    {
+        "name": "Vaelor Soulstealer",
+        "occupation": "Sorcerer of Ghrond",
+        "race": "Dark Elf",
+        "traits": {
+            "ideal": "Knowledge",
+            "flaw": "Ambition",
+            "bond": "Forbidden magic"
+        },
+        "description": "A gifted but ruthless sorcerer who experiments with forbidden magic, constantly seeking more power to bend to his will."
+    },
+    {
+        "name": "Ulfgar the Bloodied",
+        "occupation": "Norscan Chieftain",
+        "race": "Norscan",
+        "traits": {
+            "ideal": "Conquest",
+            "flaw": "Savageness",
+            "bond": "The Dark Gods"
+        },
+        "description": "A brutal warlord who leads his marauders in endless raids, Ulfgar is favored by the Dark Gods and has never known defeat."
+    },
+    {
+        "name": "Freya the Howling Storm",
+        "occupation": "Shaman of the Wolfborn",
+        "race": "Norscan",
+        "traits": {
+            "ideal": "Vision",
+            "flaw": "Madness",
+            "bond": "The wolves"
+        },
+        "description": "A Norscan witch who claims to hear the whispers of the gods in the raging storms, her visions guide warriors to both glory and doom."
+    },
+    {
+        "name": "Talanor Shadowbough",
+        "occupation": "Waywatcher of Athel Loren",
+        "race": "Wood Elf",
+        "traits": {
+            "ideal": "Patience",
+            "flaw": "Solitude",
+            "bond": "The forest"
+        },
+        "description": "A silent guardian of the forest, Talanor stalks trespassers with an uncanny patience, striking only when necessary."
+    },
+    {
+        "name": "Naestra Moonsinger",
+        "occupation": "Spellsinger of Athel Loren",
+        "race": "Wood Elf",
+        "traits": {
+            "ideal": "Harmony",
+            "flaw": "Naivety",
+            "bond": "The glades"
+        },
+        "description": "A mystical elf who communes with the spirits of the forest, weaving spells that bind the glades in harmony or bring destruction to intruders."
+    }
+]
